@@ -2,7 +2,7 @@ import React from 'react';
 
 class App extends React.Component {
   render() {
-    return <h1>Hello w0rld!!!</h1>;
+    return <h1>Hello w0rld - from webpack dev server</h1>;
   }
 }
 
