@@ -13,6 +13,7 @@ class App extends React.Component {
   // }
 
   render() {
+    // throw new Error('bo0om!')
     const { count } = this.state
     return (
       <div>
