@@ -7,6 +7,11 @@ class App extends React.Component {
   state = {
     count: 0
   }
+
+  // UNSAFE_componentWillMount() {
+  //   console.log('This lifecycle hook should be avoided')
+  // }
+
   render() {
     const { count } = this.state
     return (
